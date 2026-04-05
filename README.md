@@ -1,6 +1,12 @@
-# Welcome to EthioMind AI app 👋
+# Welcome to Habesha app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+
+## System requirenments 
+Node.js(LTS)
+macOS, windows (Powershell and WSL 2), and Linux are supported 
+
+
 
 ## Get started
 
