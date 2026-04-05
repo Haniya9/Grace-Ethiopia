@@ -2,9 +2,26 @@
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## System requirenments 
-Node.js(LTS)
-macOS, windows (Powershell and WSL 2), and Linux are supported 
+### System requirements 
+- Node.js(LTS)
+- macOS, windows (Powershell and WSL 2), and Linux are supported 
+
+### Configration and Initializaing 
+1. intializing Expo on your PC
+   ```bash
+   npm create-expo-app@latest
+   ```
+2. setup and installing Nativewind(better)
+   ```bash
+   npm install nativewind react-native-reanimated react-native-safe-area-context
+   npm install --dev tailwindcss@^3.4.17 prettier-plugin-tailwindcss@^0.5.11 babel-preset-expo
+   ```
+3. Setup Tailwind CSS
+   Run npx tailwindcss init to create a tailwind.config.js file
+   
+5. Configrations
+   - Add the babel preset and modify or Create your metro.config.js
+6. Import your CSS file 
 
 
 
@@ -31,7 +48,7 @@ In the output, you'll find options to open the app in a
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+## Get a project
 
 When you're ready, run:
 
@@ -39,19 +56,22 @@ When you're ready, run:
 npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
 ### Other setup steps
 
 - To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
 - If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+- TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
 
-## Learn more
+## More websites we used in this project 
+- [OpenAI API integration](https://platform.openai.com/home)
+- [Naming our AI ](https://namelix.com/)
+- [Architecture of the System](https://www.eraser.io/)
+- [UX/UI for the app](https://dribbble.com/)
+- [Tailwind CSS for expo](https://docs.expo.dev/guides/tailwind/)
+- [Nativewind](https://www.nativewind.dev/)
 
-To learn more about developing your project with Expo, look at the following resources:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
 
 
